@@ -19,6 +19,7 @@ namespace SlidingPuzzle
     /// </summary>
     public partial class MainWindow : Window
     {
+        // Test
         Canvas draggedBlock;        // Used as the visual under the mouse when dragging a block from main to target
         Point dragPos;
         ICommand newGridSizeCommand;
